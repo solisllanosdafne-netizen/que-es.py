@@ -1,0 +1,34 @@
+IF= es una condicion, vemos si hay una condicion, si la cumple o no 
+toda condicion se evalua con 1 verdadero o 1 falso, ESTABLECE UNA CONDICION "SI ESTO ES VERDADERO HAZ ESTO"
+ELSE =  es cuando la condicion es un NO,es el plan B "si no se cumplio lo anterior,haz esto otro"
+estos 2 terminos crean condicionales.permiten que el programa tome diferentes caminos segun lo que suceda.
+
+INPUT= (entrada)es cuando el programa se detierne y "escucha" lo que el usuario escribe en el teclado.sirve para capturar informacion.
+PRINT= (salida) es cuando el programa "habla" muestra un mensaje o un resultado en la pantalla.
+ejemplo: nombre = input("¿como te llamas?") hace que el programa espere a que escribas algo y print("hola") lo muestra en pantalla
+
+FLOAT= (punto flotante) se usa para numeros que tienen parte deciamal, es vital cuando trabajas con dinero, medidas o promedios
+ejemplo 3.14;10.5 o 0.99
+INT= (enteros)se usa para representar numeros enteros positivos o negativos (sin puntos ni comas) uso comun: contar cosas que se pueden partir, como personas,años o vueltas de un ciclo 
+DATO IMPORTANTE = cuando usas input() la computadora recive el texo como "letras".si quieres hacer matematicas con eso, debes convertirlo usando int(input())
+
+LOS BUCLES = WHILE Y FOR  sirven para REPETIR CODIGOS, pero se usan en situaciones diferentes 
+WHILE = (mientras) este repite una accion mientras una condicion sea verdadera.no sabes cuantas veces se va a repetir, solo sabes que se va a detener cuando la condicion cambie.
+  analogia= "lava los platos mientras queden platos sucios en el fregadero"
+  peligro= si la condicion nunca cambia a falso,creas un "bucle infinito" y el programa se bloquea.
+FOR=(PARA) se usa cuando quieres repetir algo un numero determinado de veces o recorrer una lista de elementos (como una lista de nombres o una serie de numeros)
+   analogia= "dale una galleta a cada uno de los 5 niños en la fila"
+   uso comun= recorrer arreglos, base de datos o rangos numericos.
+EJEMPLOS :
+INT :NUMEROS EXACTOS, EDAD=25
+WHILE: REPETIR UN NUMERO FIJO, VALIDAR UNA CONTRASEÑA HASTA QUE SEA VERDADERA  
+FOR: REPETIR NUMERO FIJO, APLICAR UN DESCUENTO A TODOS LOS PRODUCTOS DE UNA LISTA   
+  
+"OPERADORES RELACIONALES"
+> MAYOR QUE
+< MENOR QUE
+> = MAYOR O IGUAL QUE
+
+< = MENOR O IGUAL QUE 
+= = IGUAL 
+/ DISTINTO
